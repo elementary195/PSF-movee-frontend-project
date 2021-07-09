@@ -1,0 +1,54 @@
+:root {
+  --main-color: #FED100;
+  --color1: #FF352B;
+  --color2: #3D9BE9;
+  --main-text-color: #333333;
+  --main-font: Montserrat;
+  /*возможно удалить*/
+  --primary-font-size: 16px;
+  /*    */
+}
+body {
+  background-color: white;
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+  font-size: var(--primary-font-size);
+}
+a {
+  color: var(--main-text-color);
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+.bg-main {
+  background-color: var(--main-color);
+}
+li {
+  list-style-type: none;
+}
+
+/*Bootstrap styles*/
+.navbar-brand {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+.nav-link {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--main-text-color);
+}
+.yellow-btn {
+  background-color: var(--main-color);
+  color: black;
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  border: 0;
+  font-weight: bold;
+}

@@ -1,0 +1,40 @@
+{
+  "autopark": [
+    {
+      "name": "Газель 3 метра",
+      "type": "Газели",
+      "length": 3,
+      "width": 2,
+      "height": 2,
+      "capacity": 1.5,
+      "img": "static/images/Gazelle3.png"
+    },
+    {
+      "name": "Газель 4 метра",
+      "type": "Газели",
+      "length": 4,
+      "width": 2,
+      "height": 2,
+      "capacity": 1.9,
+      "img": "static/images/Gazelle4.png"
+    },
+    {
+      "name": "Грузовой фургон",
+      "type": "Фургоны",
+      "length": 2,
+      "width": 2,
+      "height": 2,
+      "capacity": 0.8,
+      "img": "static/images/Fyrgon3_2.png"
+    },
+    {
+      "name": "Грузовик 10 метров",
+      "type": "Грузовики",
+      "length": 10,
+      "width": 3,
+      "height": 3,
+      "capacity": 10,
+      "img": "static/images/Gryzovik.png"
+    }
+  ]
+}
