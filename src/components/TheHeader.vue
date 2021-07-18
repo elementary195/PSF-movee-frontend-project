@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import HeaderNav from "./HeaderNav";
+import HeaderNav from "./TheHeaderNav";
 export default {
   name: "Header",
   data() {

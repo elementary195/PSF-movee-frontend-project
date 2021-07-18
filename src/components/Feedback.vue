@@ -88,8 +88,8 @@
 </template>
 
 <script>
-import HeaderNav from "./HeaderNav";
-import Footer from "./Footer";
+import HeaderNav from "./TheHeaderNav";
+import Footer from "./TheFooter";
 import { GChart } from "vue-google-charts"
 import StarRating from 'vue-star-rating';
 
