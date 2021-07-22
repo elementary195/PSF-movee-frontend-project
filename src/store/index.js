@@ -7,6 +7,7 @@ export const store = new Vuex.Store({
   state: {
     siteName: 'movee',
     telNum: '8(800)-080-12-13',
+    email: 'hello@movee.ru',
     socialNetworks: {
       YOUTUBE: {
         name: "youtube",
