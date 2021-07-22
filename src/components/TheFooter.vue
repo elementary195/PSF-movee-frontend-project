@@ -70,7 +70,6 @@
 </template>
 
 <script>
-import {constants} from "../config";
 import {mapGetters, mapState} from "vuex";
 
 export default {
