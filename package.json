@@ -22,7 +22,8 @@
     "vue-masked-input": "^0.5.2",
     "vue-router": "^3.0.1",
     "vue-star-rating": "^1.7.0",
-    "vuejs-paginate": "^2.1.0"
+    "vuejs-paginate": "^2.1.0",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
