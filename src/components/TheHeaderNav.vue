@@ -3,7 +3,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-main px-0" style="z-index: 1;">
 
-        <router-link class="navbar-brand text-uppercase" :to="{name: 'Main'}" href="#0">{{ SiteName }}</router-link> <!-- Logo/Name -->
+        <router-link class="navbar-brand text-uppercase" :to="{name: 'Main'}" href="#0">{{ siteName }}</router-link> <!-- Logo/Name -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button> <!-- collapse btn -->
@@ -38,7 +38,7 @@
             </li>
           </ul> <!-- nav for any other route -->
 
-          <span class="navbar-text font-weight-bold phone">{{ phoneNumber }}</span> <!-- phone number -->
+          <span class="navbar-text font-weight-bold phone">{{ telNum }}</span> <!-- phone number -->
         </div>
 
       </nav>
@@ -47,20 +47,16 @@
 </template>
 
 <script>
-import {constants} from "../config";
+import {mapGetters, mapState} from "vuex";
 
 export default {
   name: "HeaderNav",
-  data() {
-    return {
-      SiteName: constants.SITENAME,
-      phoneNumber: constants.PHONE,
-    }
-  },
   computed: {
     main() {
       return this.$route.path === '/';
-    }
+    },
+    ...mapGetters(['siteName']),
+    ...mapState(['telNum']),
   }
 }
 </script>
